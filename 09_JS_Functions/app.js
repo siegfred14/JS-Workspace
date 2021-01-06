@@ -57,3 +57,52 @@ console.log(greetMe);
 greetMe();
 
 
+//funcion with parameter
+
+let wishMe = function (name, age) {
+    let message = `Hello Mr ${name}, You are ${age} years old`;
+    console.log(message);
+}
+
+wishMe('John', 17);
+
+//function without return type
+let sum = function (a, b) {
+    let result = 2 * (a + b);
+    return result;
+}
+let output = sum(10, 20);
+console.log(output);
+
+//function with object as parameter
+let printObject = function (obj) {
+    console.log(obj);
+}
+
+printObject({ name: "Sam", age: 20 });
+
+//or you can declare a function outside and pass it
+
+let mobile = {
+    brand: 'Apple',
+    color: 'Silver',
+    price: 35000
+};
+printObject(mobile);
+
+//function with an array as parameter
+let printArray = function (array) {
+    let result = '';
+    for (let index in array) {
+        result += `INDEX: ${index} => VALUE: ${array[index]} \n`;
+    }
+    console.log(result);
+}
+
+printArray([10, 20, 30, 40, 50]);
+
+//or pass an existing array
+let colors = ['White', 'Black', 'Orange', 'Purple'];
+
+printArray(colors);
+
