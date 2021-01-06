@@ -143,3 +143,20 @@ let outerFn = function () {
 outerFn();
 //for the innerFn to appear at runtime, call it inside the outer funtion
 
+//Twisted Function
+let twistedFn = function () {
+    let name = 'John';
+    let printStudent = function () {
+        let student = {
+            name: 'Rajan',
+            age: 20,
+            course: 'CSE'
+        };
+        return student;
+    };
+    return printStudent;
+}
+let innerFn = twistedFn();
+let studentObj = innerFn();
+console.log(studentObj);
+
