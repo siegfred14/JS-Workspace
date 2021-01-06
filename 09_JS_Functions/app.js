@@ -160,3 +160,30 @@ let innerFn = twistedFn();
 let studentObj = innerFn();
 console.log(studentObj);
 
+//Prepare Chicken curry with functions
+
+let glassBowl = function (rawChicken, masala) {
+    //marinating chicken
+    let marinatedChicken = `MIXED: (${rawChicken} + ${masala})`;
+    return marinatedChicken;
+};
+
+let cookingBowl = function (marinatedChicken, water) {
+    //cooking logic
+    let cookedChicken = `COOKED: (${marinatedChicken} + ${water})`;
+    return cookedChicken;
+};
+
+let eatingPlate = function (cookedChicken, rice) {
+    //eating
+    let eating = `EATING: (${cookedChicken} + ${rice})`;
+    console.log(eating);
+};
+
+let rawChicken = '3Kg Chicken';
+let masala = 'garlic, pepper, Salt';
+let marinatedChicken = glassBowl(rawChicken, masala);
+let water = '1Ltr water';
+let cookedChicken = cookingBowl(marinatedChicken, water);
+let rice = '1Kg Rice';
+eatingPlate(cookedChicken, rice);
