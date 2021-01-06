@@ -106,3 +106,40 @@ let colors = ['White', 'Black', 'Orange', 'Purple'];
 
 printArray(colors);
 
+//function inside an object
+
+let student = {
+    firstName: 'Arjun',
+    lastname: 'Reddy',
+    fullName: function () {
+        return 'Arjun Reddy';
+    }
+}
+console.log(student);
+console.log(student.firstName);
+console.log(student.fullName); //this returns the function
+//to get only the fullname, we must add the parenthesis to the function keyword in the output
+console.log(student.fullName());
+
+//Using 'this' keyword
+student = {
+    firstName: 'Arjun',
+    lastname: 'Reddy',
+    fullName: function () {
+        return `${this.firstName} ${this.lastname}`;
+    }
+};
+console.log(student.fullName());
+
+//nested Function
+
+let outerFn = function () {
+    console.log('i am an outer function');
+    let innerFn = function () {
+        console.log('I am an inner function');
+    };
+    innerFn();
+};
+outerFn();
+//for the innerFn to appear at runtime, call it inside the outer funtion
+
