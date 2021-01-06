@@ -30,3 +30,30 @@ function printNumbers(endNumber) {
 
 printNumbers(15);
 
+//Using multiple parameters
+function printNumbers(startNumber, endNumber, increment) {
+    result = '';
+    for (i = startNumber; i <= endNumber; i += increment) {
+        result += `${i} `;
+    }
+    console.log(result);
+}
+
+printNumbers(4, 15, 2);
+
+//Function without parameter (no input no output)
+
+function greet() {
+    console.log('Good Morning');
+}
+
+greet();
+
+//Function Expression
+let greetMe = function () {
+    console.log('Good Morning');
+};
+console.log(greetMe);
+greetMe();
+
+
