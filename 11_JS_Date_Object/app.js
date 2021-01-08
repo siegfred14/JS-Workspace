@@ -64,3 +64,15 @@ switch (day) {
 
 console.log(`Today is ${today}`);
 
+//Month
+let currentMonth = new Date().getMonth();
+console.log(currentMonth); //month also is from 0 - 11
+
+//custom date
+let c_date = new Date().getDate();
+let c_month = new Date().getMonth() + 1;
+let c_year = new Date().getFullYear();
+console.log(`${c_date} - ${c_month} - ${c_year}`);
+console.log(`${c_date} . ${c_month} . ${c_year}`);
+console.log(`${c_date} , ${c_month} , ${c_year}`);
+console.log(`${c_date}/${c_month}/${c_year}`);
