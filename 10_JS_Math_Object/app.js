@@ -15,3 +15,16 @@ console.log(minimum);
 let maximum = Math.max(12, 43, 56, 64, 34, 28, 18, 86, 40, 45);
 console.log(maximum);
 
+//random number -- to get a random number
+let randomNumber = Math.random();
+console.log(randomNumber);
+
+//to get answer to 4 decimal places
+randomNumber = Math.random() * 10000;
+console.log(randomNumber);
+
+//to make it a round number
+randomNumber = Math.round(Math.random() * 10000);
+console.log(randomNumber);
+
+// for more, google search javascript math in mdn
