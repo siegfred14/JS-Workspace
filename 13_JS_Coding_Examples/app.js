@@ -156,6 +156,8 @@ maxChar('heLLLoo$$3p'); //L appears most, and it appears 3 times
 //FizzBuzz
 //if number is divisible by 3: Fizz, 5: Buzz, 5 and 3 :FizzBuzz 
 
+console.log(' ');
+console.log('FIZZBUZZ ');
 let fizzBuzz = (n) => {
     for (let i = 1; i <= n; i++) {
         if (i % 3 == 0 && i % 5 == 0) {
@@ -173,3 +175,37 @@ let fizzBuzz = (n) => {
     }
 }
 fizzBuzz(30);
+
+// Or
+
+console.log(' ');
+console.log('FIZZBUZZ 2');
+((num) => {
+    for (let i = 1; i <= num; i++) {
+        //check for 3 and 5
+        if (i % 3 == 0 && i % 5 == 0) {
+            console.log(`${i} FIZZBUZZ`);
+            ++i;
+        }
+        //check for 3
+        if (i % 3 == 0) {
+            console.log(`${i} FIZZ`);
+            ++i;
+        }
+        //check for 5
+        if (i % 5 == 0) {
+            console.log(`${i} BUZZ`);
+            ++i;
+        }
+        //check for 3 again because after 5, ++i prints 6 and doesnt come back to reprocess it
+        if (i % 3 == 0) {
+            console.log(`${i} FIZZ`);
+            ++i;
+        }
+        //else
+        if (i > num) break;
+        else console.log(i);
+    }
+}
+
+)(25);
