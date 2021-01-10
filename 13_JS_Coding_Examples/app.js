@@ -17,7 +17,7 @@ let findZeros = function (string) {
 console.log(`The 'o's in the string is : ${findZeros(msg)}`);
 console.log(`The 'o's in the string is : ${findZeros(cart)}`);
 
-//find the reverse string of the given string
+//find the reverse string of he given string
 msg = 'Good Morning';
 
 let reverseString = (str) => {
@@ -30,4 +30,25 @@ let reverseString = (str) => {
 };
 console.log(`${msg} => ${reverseString(msg)}`);
 console.log(`${msg} => ${reverseString(cart)}`);
+
+// 3. check if the given string is palindrome or not (i.e string is same as reverse string)
+
+msg = 'level';
+let isPalindrome = (str) => {
+    if (str === reverseString(str)) {
+        return true;
+    }
+    else {
+        return false;
+    }
+};
+
+/* 
+or simply...
+let isPalindrome = (str) => {
+    return (str === reverseString(str));
+};
+*/
+console.log(`is ${msg} Pallindrome? ${isPalindrome(msg)}`);
+
 
