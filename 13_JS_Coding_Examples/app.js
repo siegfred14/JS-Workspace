@@ -113,3 +113,19 @@ let triangle4 = (str) => {
 };
 console.log(triangle4(myName));
 
+//reverse integer
+
+const reverseInt = (n) => {
+    if (n < 0) {
+        return -1 * parseInt(n.toString().split('').reverse().join(''))
+    }
+    return parseInt(n.toString().split('').reverse().join(''))
+}
+
+console.log({
+    testcase1: reverseInt(51),
+    testcase2: reverseInt(500),
+    testcase3: reverseInt(-23),
+    testcase4: reverseInt(-900)
+});
+
