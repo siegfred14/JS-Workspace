@@ -129,3 +129,26 @@ console.log({
     testcase4: reverseInt(-900)
 });
 
+/* 
+find maximum character in a string and how many times it appears 
+*/
+let randomString = 'heLLLoo$$3p';
+
+let maxChar = (str) => {
+    let obj = {};
+    for (let char of str) {
+        (!obj[char]) ? obj[char] = 1 : obj[char]++;
+    }
+    let maxNum = 0;
+    let maxChar = "";
+    for (let char in obj) {
+        if (obj[char] >= maxNum) {
+            maxNum = obj[char];
+            maxChar = char;
+        }
+    }
+    console.log(`${maxChar} appears most, and it appears ${maxNum} times`);
+}
+
+maxChar('heLLLoo$$3p'); //L appears most, and it appears 3 times
+
