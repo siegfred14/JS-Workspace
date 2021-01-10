@@ -152,3 +152,24 @@ let maxChar = (str) => {
 
 maxChar('heLLLoo$$3p'); //L appears most, and it appears 3 times
 
+
+//FizzBuzz
+//if number is divisible by 3: Fizz, 5: Buzz, 5 and 3 :FizzBuzz 
+
+let fizzBuzz = (n) => {
+    for (let i = 1; i <= n; i++) {
+        if (i % 3 == 0 && i % 5 == 0) {
+            console.log(`${i} FIZZBUZZ`);
+        }
+        else if (i % 3 == 0) {
+            console.log(`${i} FIZZ`);
+        }
+        else if (i % 5 == 0) {
+            console.log(`${i} BUZZ`);
+        }
+        else {
+            console.log(i);
+        }
+    }
+}
+fizzBuzz(30);
