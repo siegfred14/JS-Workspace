@@ -52,3 +52,64 @@ let isPalindrome = (str) => {
 console.log(`is ${msg} Pallindrome? ${isPalindrome(msg)}`);
 
 
+//4.) 
+console.log('Triangle One');
+let myName = 'SIEGFRED';
+
+let triangle = (str) => {
+    let tempString = '';
+    for (i = 1; i <= str.length; i++) {
+        tempString += `${str.substr(0, i)} \n`;
+    }
+    return tempString;
+}
+console.log(triangle(myName));
+
+//5.) Triangle two
+
+console.log('Triangle Two')
+myName = 'SIEGFRED';
+
+let addSpace = (number) => {
+    let space = '';
+    for (let i = 0; i <= number; i++) {
+        space += ' ';
+    }
+    return space;
+};
+
+let triangle2 = (str) => {
+    let tempString = '';
+    for (let i = 0; i <= str.length - 1; i++) {
+        tempString += `${addSpace(i)}${str.substr(i)} \n`
+    }
+    return tempString
+}
+console.log(triangle2(myName));
+
+//Triangle Three
+console.log('Traingle Three')
+myName = 'SIEGFRED';
+
+let triangle3 = (str) => {
+    tempString = '';
+    for (let i = str.length; i >= 1; i--) {
+        tempString += `${str.substr(0, i)} \n`
+    }
+    return tempString;
+};
+console.log(triangle3(myName));
+
+//Triangle four
+console.log('Triangle Four');
+myName = 'SIEGFRED';
+
+let triangle4 = (str) => {
+    tempString = '';
+    for (let i = str.length - 1; i >= 0; i--) {
+        tempString += `${addSpace(i)}${str.substr(i)} \n`
+    }
+    return tempString;
+};
+console.log(triangle4(myName));
+
