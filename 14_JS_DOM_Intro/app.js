@@ -35,3 +35,11 @@ h1Tag.style.color = 'white';
 h1Tag.style.textAlign = 'center';
 h1Tag.style.boxShadow = '0 0 10px black';
 h1Tag.style.borderRadius = '10px';
+
+let newText = document.querySelector('form input');
+newText.style.marginLeft = '30px';
+newText.style.backgroundColor = 'lightslategrey'
+newText.style.border = 'none';
+newText.style.borderRadius = '2px';
+
+newText.innerMessage = `i'm certainly the new boss`;
