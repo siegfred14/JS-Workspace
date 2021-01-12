@@ -1,0 +1,11 @@
+div {
+  text-align: center;
+  background: linear-gradient(35deg, red, green);
+  border-radius: 7px;
+}
+
+button {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 14px;
+}
