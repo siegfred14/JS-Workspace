@@ -10,3 +10,21 @@ let wishMe = (message, color) => {
 
 }
 
+
+//Good Morning Button Logic
+let gmButton = document.querySelector('#gm-btn');
+gmButton.addEventListener('click', function () {
+    wishMe('Good Morning', 'orange');
+});
+
+//Good Afternoon Button Logic
+let gaButton = document.querySelector('#ga-btn');
+gaButton.addEventListener('click', function () {
+    wishMe('Good Afternoon', 'red');
+});
+
+//Good Evening Button Logic
+let geButton = document.querySelector('#ge-btn');
+geButton.addEventListener('click', function () {
+    wishMe('Good Evening', 'brown');
+});
