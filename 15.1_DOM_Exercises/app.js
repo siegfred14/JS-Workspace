@@ -40,3 +40,11 @@ let gdButton = document.querySelector('#gd-btn');
 gdButton.addEventListener('click', function () {
     wishMe('Good Day', 'green');
 });
+
+let textArea = document.querySelector('#text-area');
+let charLeft = document.querySelector('#char-left');
+
+textArea.addEventListener('keyup', function name(params) {
+    let length = textArea.value.length;
+    charLeft.innerText = length;
+});
