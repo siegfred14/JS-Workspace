@@ -28,3 +28,15 @@ let geButton = document.querySelector('#ge-btn');
 geButton.addEventListener('click', function () {
     wishMe('Good Evening', 'brown');
 });
+
+//Good Night Button Logic
+let gnButton = document.querySelector('#gn-btn');
+gnButton.addEventListener('click', function () {
+    wishMe('Good Night', 'lightslategrey');
+});
+
+//Good Day Button Logic
+let gdButton = document.querySelector('#gd-btn');
+gdButton.addEventListener('click', function () {
+    wishMe('Good Day', 'green');
+});
