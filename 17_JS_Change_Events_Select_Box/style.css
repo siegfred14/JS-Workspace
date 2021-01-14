@@ -18,3 +18,17 @@ body {
   background-color: antiquewhite;
   border-radius: 4px;
 }
+
+.container {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: darkslategray;
+}
+/* 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ */
