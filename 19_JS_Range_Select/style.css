@@ -4,7 +4,8 @@ body {
 }
 .navbar {
   background-color: darkslategray;
-  padding: 30px;
+  padding: 20px;
+  color: white;
 }
 
 .navbar-brand {
