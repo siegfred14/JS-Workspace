@@ -2,7 +2,7 @@
 let textAreaEL = document.querySelector('#text-area');
 let countEl = document.querySelector('#char-count');
 
-textAreaEL.addEventListener('keyup', function name(params) {
+textAreaEL.addEventListener('keyup', () => {
     let textLength = textAreaEL.value.length;
     countEl.innerText = textLength;
 });
