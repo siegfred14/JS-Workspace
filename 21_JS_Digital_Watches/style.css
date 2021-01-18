@@ -11,3 +11,9 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.card-body {
+  background: linear-gradient(20deg, rgb(6, 54, 6), #00c851);
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
