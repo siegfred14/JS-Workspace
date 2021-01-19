@@ -14,3 +14,9 @@ range.addEventListener('change', function name(params) {
     calculate();
 });
 
+calculate = () => {
+    let number1 = Number(document.querySelector('#number').innerText);
+    let number2 = Number(document.querySelector('#multiples').innerText);
+    let finalResult = number1 * number2;
+    document.querySelector('#resultF').innerText = finalResult;
+};
