@@ -7,3 +7,10 @@ numberEl.addEventListener('keyup', function name(params) {
     calculate()
 });
 
+let range = document.querySelector('#multiplier');
+range.addEventListener('change', function name(params) {
+    let multiple = document.querySelector('#multiples');
+    multiple.innerText = Number(range.value);
+    calculate();
+});
+
