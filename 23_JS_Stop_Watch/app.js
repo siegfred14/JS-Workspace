@@ -12,9 +12,18 @@ let startTimer = () => {
     seconds = Math.floor((count / 100) - (minutes * 60));
     milliseconds = Math.floor(count - (seconds * 100) - (minutes * 60));
 
-    document.querySelector('#m-seconds').innerText = milliseconds;
-    document.querySelector('#seconds').innerText = seconds;
-    document.querySelector('#minute').innerText = minutes;
+    document.querySelector('#m-seconds').innerText = leadingZero(milliseconds);
+    document.querySelector('#seconds').innerText = leadingZero(seconds);
+    document.querySelector('#minute').innerText = leadingZero(minutes);
 
 };
 
+//to ensure time below 2 digits has a '0' in front of it; 
+let leadingZero = (time) => {
+    if (time < 10) {
+        return "0" + time;
+    }
+    else {
+        return time
+    }
+}
