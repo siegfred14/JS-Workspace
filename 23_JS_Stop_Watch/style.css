@@ -1,13 +1,18 @@
 body {
   margin: 0;
+  background-color: darkslategray;
 }
 .navbar {
-  background-color: darkslategray;
   padding: 20px;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   text-decoration: none;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+.btn {
+  padding: 5px 15px;
+  border-radius: 1rem;
 }
