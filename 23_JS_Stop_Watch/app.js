@@ -43,3 +43,18 @@ stopButton.addEventListener('click', function name(params) {
     clearInterval(interval); //stop the timer
 });
 
+//click on reset button
+let resetButton = document.querySelector('#reset-btn');
+resetButton.addEventListener('click', function name(params) {
+    clearInterval(interval);
+    let count = 0;
+    minutes = 0;
+    seconds = 0;
+    milliseconds = 0;
+    interval = 0; //in view of clearing interval
+    timerRunning = false; //in view of preventing start reimplementation when already running
+
+    document.querySelector('#m-seconds').innerText = '00';
+    document.querySelector('#seconds').innerText = '00';
+    document.querySelector('#minute').innerText = '00';
+});
