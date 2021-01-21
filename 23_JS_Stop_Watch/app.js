@@ -26,4 +26,14 @@ let leadingZero = (time) => {
     else {
         return time
     }
-}
+};
+
+//click on start button
+let startButton = document.querySelector('#start-btn');
+startButton.addEventListener('click', function name(params) {
+    if (!timerRunning) {
+        interval = setInterval(startTimer, 10);  // Start timer
+        timerRunning = true;
+    }
+});
+
