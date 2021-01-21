@@ -37,3 +37,9 @@ startButton.addEventListener('click', function name(params) {
     }
 });
 
+//click on stop button
+let stopButton = document.querySelector('#stop-btn');
+stopButton.addEventListener('click', function name(params) {
+    clearInterval(interval); //stop the timer
+});
+
