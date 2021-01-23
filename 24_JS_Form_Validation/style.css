@@ -29,3 +29,13 @@ body {
   box-shadow: 0 0 10px orangered;
   border-radius: 5px;
 }
+
+.text-success {
+  color: limegreen;
+  font-size: 14px;
+}
+
+.text-danger {
+  color: orangered;
+  font-size: 14px;
+}
