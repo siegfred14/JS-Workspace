@@ -11,3 +11,16 @@ registrationForm.addEventListener('submit', function (event) {
     }
 });
 
+//Form Validation
+
+let validateForm = () => {
+    if (checkUsername() & checkEmail() & checkPassword() & checkConfirmPassword()) {
+        return true;
+    }
+    else {
+        return false;
+    }
+    //or simply
+    //return (checkUsername() & checkEmail() & checkPassword() & checkConfirmPassword());
+};
+
