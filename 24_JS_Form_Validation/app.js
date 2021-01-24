@@ -115,3 +115,9 @@ usernameEl.addEventListener('keyup', function name(params) {
     checkEmail();
 });
 
+//Password field with keyup Event
+let passwordEl = document.querySelector('#password');
+usernameEl.addEventListener('keyup', function name(params) {
+    checkPassword();
+})
+
