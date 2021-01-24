@@ -54,3 +54,18 @@ let checkEmail = () => {
     }
 };
 
+//check Password
+let checkPassword = () => {
+    let inputEl = document.querySelector('#password');
+    let inputFeedbackEl = document.querySelector('#password-feedback');
+    let regExp = /^[A-Za-z]\w{7, 14}$/;
+    if (regExp.test(inputEl.value)) {
+        makeValid(inputEl, inputFeedbackEl);
+        return true;
+    }
+    else {
+        makeInvalid(inputEl, inputFeedbackEl);
+        return false;
+    }
+};
+
