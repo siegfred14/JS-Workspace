@@ -86,3 +86,12 @@ let checkConfirmPassword = () => {
 };
 
 
+// make Valid
+let makeValid = (inputEl, inputFeedbackEl) => {
+    inputEl.classList.add('is-form-valid');
+    inputEl.classList.remove('is-form-invalid');
+    inputFeedbackEl.classList.add('text-success');
+    inputFeedbackEl.classList.remove('text-danger');
+    inputFeedbackEl.innerText = 'Looks Good';
+};
+
