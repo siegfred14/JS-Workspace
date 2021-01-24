@@ -94,3 +94,12 @@ let makeValid = (inputEl, inputFeedbackEl) => {
     inputFeedbackEl.innerText = 'Looks Good';
 };
 
+//make Invalid
+let makeinValid = (inputEl, inputFeedbackEl) => {
+    inputEl.classList.remove('is-form-valid');
+    inputEl.classList.add('is-form-invalid');
+    inputFeedbackEl.classList.remove('text-success');
+    inputFeedbackEl.classList.add('text-danger');
+    inputFeedbackEl.innerText = `please Enter a ${inputEl.placeholder}`;
+}
+
