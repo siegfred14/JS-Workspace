@@ -24,11 +24,26 @@ let validateForm = () => {
     //return (checkUsername() & checkEmail() & checkPassword() & checkConfirmPassword());
 };
 
-//Check Username
+//Check
 let checkUsername = () => {
     let inputEl = document.querySelector('#username');
     let inputFeedbackEl = document.querySelector('#email-feedback');
     let regExp = /^[a-zA-Z0-9]{4, 10}$/;
+    if (regExp.test(inputEl.value)) {
+        makeValid(inputEl, inputFeedbackEl);
+        return true;
+    }
+    else {
+        makeInvalid(inputEl, inputFeedbackEl);
+        return false;
+    }
+};
+
+//Check Email
+let checkEmail = () => {
+    let inputEl = document.querySelector('#email');
+    let inputFeedbackEl = document.querySelector('#username-feedback');
+    let regExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (regExp.test(inputEl.value)) {
         makeValid(inputEl, inputFeedbackEl);
         return true;
