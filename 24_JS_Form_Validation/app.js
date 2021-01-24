@@ -69,3 +69,20 @@ let checkPassword = () => {
     }
 };
 
+//check  confirm Password
+let checkConfirmPassword = () => {
+    let inputEl = document.querySelector('#c_password');
+    let passwordEl = document.querySelector('#password');
+    let inputFeedbackEl = document.querySelector('#c_password-feedback');
+    let regExp = /^[A-Za-z]\w{7, 14}$/;
+    if (regExp.test(inputEl.value) && inputEl.value === passwordEl.value) {
+        makeValid(inputEl, inputFeedbackEl);
+        return true;
+    }
+    else {
+        makeInvalid(inputEl, inputFeedbackEl);
+        return false;
+    }
+};
+
+
