@@ -121,3 +121,8 @@ usernameEl.addEventListener('keyup', function name(params) {
     checkPassword();
 })
 
+//confirm Password field with keyup Event
+let confirmPasswordEl = document.querySelector('#c_password');
+usernameEl.addEventListener('keyup', function name(params) {
+    checkConfirmPassword();
+});
