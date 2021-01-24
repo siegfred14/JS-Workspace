@@ -103,3 +103,9 @@ let makeinValid = (inputEl, inputFeedbackEl) => {
     inputFeedbackEl.innerText = `please Enter a ${inputEl.placeholder}`;
 }
 
+//Username field with keyup Event
+let usernameEl = document.querySelector('#username');
+usernameEl.addEventListener('keyup', function name(params) {
+    checkUsername();
+});
+
