@@ -85,7 +85,6 @@ let checkConfirmPassword = () => {
     }
 };
 
-
 // make Valid
 let makeValid = (inputEl, inputFeedbackEl) => {
     inputEl.classList.add('is-form-valid');
