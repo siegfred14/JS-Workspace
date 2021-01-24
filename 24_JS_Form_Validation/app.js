@@ -109,3 +109,9 @@ usernameEl.addEventListener('keyup', function name(params) {
     checkUsername();
 });
 
+//email field with keyup Event
+let emailEl = document.querySelector('#email');
+usernameEl.addEventListener('keyup', function name(params) {
+    checkEmail();
+});
+
