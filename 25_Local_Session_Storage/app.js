@@ -60,3 +60,9 @@ colors = [{ id: 1, name: 'white' },
 { id: 3, name: 'blue' },
 { id: 4, name: 'yellow' }];
 
+sessionStorage.setItem("colorStore", JSON.stringify(colors)); //objects must be converted to string before storage
+
+theColors = JSON.parse(sessionStorage.getItem('colorStore'));
+console.log(theColors);
+
+sessionStorage.removeItem('colorStore'); 
