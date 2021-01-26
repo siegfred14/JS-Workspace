@@ -53,3 +53,10 @@ console.log(sessionStorage.getItem('name'));
 //delete
 sessionStorage.removeItem('name');
 sessionStorage.clear(); //this deletes irrespective of name
+
+//Session storage with an array
+colors = [{ id: 1, name: 'white' },
+{ id: 2, name: 'black' },
+{ id: 3, name: 'blue' },
+{ id: 4, name: 'yellow' }];
+
