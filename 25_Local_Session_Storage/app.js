@@ -46,3 +46,7 @@ let studentName = 'Rajan';
 
 //set
 sessionStorage.setItem('name', studentName);
+
+//get
+console.log(sessionStorage.getItem('name'));
+
