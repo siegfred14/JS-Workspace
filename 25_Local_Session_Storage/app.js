@@ -41,3 +41,8 @@ console.log(theColors);
 
 localStorage.removeItem('colorStore');
 
+//Session storage with simple string
+let studentName = 'Rajan';
+
+//set
+sessionStorage.setItem('name', studentName);
