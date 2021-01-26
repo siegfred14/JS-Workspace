@@ -50,3 +50,6 @@ sessionStorage.setItem('name', studentName);
 //get
 console.log(sessionStorage.getItem('name'));
 
+//delete
+sessionStorage.removeItem('name');
+sessionStorage.clear(); //this deletes irrespective of name
