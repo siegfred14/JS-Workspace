@@ -9,5 +9,13 @@ uploadForm.addEventListener('submit', function () {
     let reader = new FileReader();
     reader.readAsDataURL(imageFile); //takes the imageFile an reads it as data 
 
+    reader.addEventListener('load', function () {
+        if (this.result && localStorage) {  //if local storage is available and file has some content
+            //if any data is available, fetch it, else return empty array for the first time 
+            let imagesList = localStorage.getItem('images') ? JSON.parse(localStorage.getItem('images')) : [];
+            imagesList.push(this.result);
+            localStorage.setItem('images', JSON.stringify(imagesList));
+        }
+    })
     displayImage();
 });
