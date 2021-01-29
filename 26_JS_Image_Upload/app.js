@@ -11,7 +11,7 @@ uploadForm.addEventListener('submit', function () {
 
     reader.addEventListener('load', function () {
         if (this.result && localStorage) {  //if local storage is available and file has some content
-            //if any data is available, fetch it, else return empty array for the first time 
+                                        //if any data is available, fetch it, else return empty array for the first time 
             let imagesList = localStorage.getItem('images') ? JSON.parse(localStorage.getItem('images')) : [];
             imagesList.push(this.result);
             localStorage.setItem('images', JSON.stringify(imagesList));
@@ -20,4 +20,10 @@ uploadForm.addEventListener('submit', function () {
     displayImage();
 });
 
+//display image
+let displayImage = () => {
+    let imagesList = localStorage.getItem('images') ? JSON.parse(localStorage.getItem('images')) : [];
+    
+};
+displayImage();
 
