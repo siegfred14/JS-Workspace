@@ -37,6 +37,8 @@ let displayImage = () => {
                             </div>
                         </div>`;
         }
+        document.querySelector('#card-row').innerHTML = cardImages;
     }
 };
+
 
