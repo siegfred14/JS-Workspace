@@ -23,7 +23,20 @@ uploadForm.addEventListener('submit', function () {
 //display image
 let displayImage = () => {
     let imagesList = localStorage.getItem('images') ? JSON.parse(localStorage.getItem('images')) : [];
-    
+    if (imagesList.length !== 0) {
+        let cardImages = '';
+        for (let image of imagesList) {
+            cardImages += `<div class="col-md-3 mt-3">
+                            <div class="card img-card">
+                                <img src="${image}" alt="" class="img-fluid">
+                                <div class="card-body">
+                                    <h3 class="card-title">Image</h3>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum mollitia,
+                                        ab dolorem possimus exercitationem modi?</p>
+                                </div>
+                            </div>
+                        </div>`;
+        }
+    }
 };
-displayImage();
 
