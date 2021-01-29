@@ -6,7 +6,7 @@ uploadForm.addEventListener('submit', function () {
     let imageName = imageFile.name; //name on the file
 
     //to read the image file
-    let reader = new FileReader();
+    let reader = new FileReader(); //FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using File or Blob objects to specify the file or data to read.
     reader.readAsDataURL(imageFile); //takes the imageFile an reads it as data 
 
     reader.addEventListener('load', function () {
@@ -19,3 +19,5 @@ uploadForm.addEventListener('submit', function () {
     })
     displayImage();
 });
+
+
