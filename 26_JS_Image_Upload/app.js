@@ -40,5 +40,11 @@ let displayImage = () => {
         document.querySelector('#card-row').innerHTML = cardImages;
     }
 };
+displayImage();
 
-
+//remove all Images
+let removeBtn = document.querySelector('#remove-btn');
+removeBtn.addEventListener('click', function name(params) {
+    localStorage.removeItem('images');
+    displayImage();
+})
