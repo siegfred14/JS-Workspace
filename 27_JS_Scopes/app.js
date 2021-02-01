@@ -53,3 +53,11 @@ if (course === 'Engineering') {
 }
 console.log(course);
 //console.log(dept); //this would flag an error because dept is in an inner scope
+
+
+//function scope 
+let greet = function name(params) {
+    let msg = 'Good Morning';
+    console.log(msg);
+};
+greet(); //This is a function scope
