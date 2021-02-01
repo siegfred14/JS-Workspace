@@ -17,3 +17,5 @@ let b = 15; //global scope/Parent scope
 }
 console.log(b); //Answer is 15
 
+//NB you cannot redeclare the same variable in the same scope.
+//In this case, just call the variable without using let/const/var. eg a=12;
