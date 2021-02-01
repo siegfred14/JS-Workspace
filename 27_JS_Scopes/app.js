@@ -45,3 +45,11 @@ a = 10;
         }
     }
 }
+
+//practical example of block scope
+let course = 'Engineering';
+if (course === 'Engineering') {
+    let dept = 'Software';
+}
+console.log(course);
+//console.log(dept); //this would flag an error because dept is in an inner scope
