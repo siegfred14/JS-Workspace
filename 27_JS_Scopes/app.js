@@ -32,5 +32,16 @@ a = 10;
     } console.log(a);
 }
 //if you move console.log to another scope, it will log the a value of that scope.
-//if 'a' is not defined in that scope, it will move to the higher scope
+//if 'a' is not defined in that scope, it will move to the higher scope. see below.
 
+a = 10;
+{
+    let a = 20;
+    {
+        let a = 30;
+        {
+            //let a = 40;
+            console.log(a); // it goes to the next parent
+        }
+    }
+}
