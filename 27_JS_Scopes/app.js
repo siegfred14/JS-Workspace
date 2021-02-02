@@ -67,5 +67,5 @@ let greet = function name(params) {
     let msg = 'Good Morning';
 };
 greet();
-console.log(msg); 
+//console.log(msg); //error message
 
