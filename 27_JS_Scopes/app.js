@@ -69,3 +69,11 @@ let greet = function name(params) {
 greet();
 //console.log(msg); //error message
 
+greet = function () {
+    let msg = 'Good Morning';
+    return msg;
+};
+console.log(greet());
+
+
+
