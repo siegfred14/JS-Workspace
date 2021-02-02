@@ -61,3 +61,11 @@ let greet = function name(params) {
     console.log(msg);
 };
 greet(); //This is a function scope
+
+//Keeping the console.log outside the scope
+let greet = function name(params) {
+    let msg = 'Good Morning';
+};
+greet();
+console.log(msg); 
+
