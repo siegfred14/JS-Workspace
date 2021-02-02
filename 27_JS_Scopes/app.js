@@ -76,5 +76,13 @@ greet = function () {
 };
 console.log(greet());
 
+//or simply
+greet = function () {
+    let msg = 'Good Morning';
+    return msg;
+};
+let result = greet();
+console.log(result);
+
 
 
