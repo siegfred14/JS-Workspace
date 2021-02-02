@@ -69,6 +69,7 @@ greet = function name(params) {
 greet();
 //console.log(msg); //error message
 
+//to access 'Good morning outside, use return
 greet = function () {
     let msg = 'Good Morning';
     return msg;
