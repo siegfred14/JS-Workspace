@@ -7,3 +7,7 @@ let mobile = {
     price: 35000
 };
 
+// Console display using ES5
+let msg = "BRAND: " + mobile.brand + " COLOR: " + mobile.color + " PRICE: " + mobile.price;
+console.log(msg); //ES5
+
