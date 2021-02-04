@@ -11,3 +11,7 @@ let mobile = {
 let msg = "BRAND: " + mobile.brand + " COLOR: " + mobile.color + " PRICE: " + mobile.price;
 console.log(msg); //ES5
 
+//Console display using ES6 templte strings
+let msg1 = `BRAND: ${mobile.brand} COLOR: ${mobile.color} PRICE: ${mobile.price}`;
+console.log(msg1); //ES6;
+
