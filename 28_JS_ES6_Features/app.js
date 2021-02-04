@@ -29,3 +29,4 @@ let template2 = `<ul>
                         <li>${mobile.price}</li>
                 </ul>`;                        //ES6
 
+// 2. Optional Parameters
