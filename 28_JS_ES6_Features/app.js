@@ -30,3 +30,10 @@ let template2 = `<ul>
                 </ul>`;                        //ES6
 
 // 2. Optional Parameters
+//simple function
+let greet = function (name, age) {
+    let msg = `Hello ${name}, you are ${age} years old`;
+    console.log(msg);
+};
+greet('John', 40);
+
