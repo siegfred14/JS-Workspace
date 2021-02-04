@@ -22,3 +22,10 @@ let template1 = "<ul>" +
     "<li>" + mobile.price + "</li>" +
     "</ul>"                                     //ES5
 
+//Converting as HTML Template, using Template strings
+let template2 = `<ul>
+                        <li>${mobile.brand}</li>
+                        <li>${mobile.color}</li>
+                        <li>${mobile.price}</li>
+                </ul>`;                        //ES6
+
