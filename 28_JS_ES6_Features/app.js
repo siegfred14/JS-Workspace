@@ -37,3 +37,4 @@ let greet = function (name, age) {
 };
 greet('John', 40);
 
+greet('John'); //if you pass only name without age, function will still work, but will treat age as undefined
