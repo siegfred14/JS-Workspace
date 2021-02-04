@@ -15,7 +15,7 @@ console.log(msg); //ES5
 let msg1 = `BRAND: ${mobile.brand} COLOR: ${mobile.color} PRICE: ${mobile.price}`;
 console.log(msg1); //ES6;
 
-//Converting as HTML Template, using ES5
+//Converting as HTML Template, using string concantenation of ES5
 let template1 = "<ul>" +
     "<li>" + mobile.brand + "</li>" +
     "<li>" + mobile.color + "</li>" +
