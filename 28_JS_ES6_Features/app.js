@@ -42,7 +42,7 @@ greet('John'); //if you pass only name without age, function will still work, bu
 //supposing the age is not passed, we want to get a default value
 //in ES5, we can use...
 
-greet = function (name, age) {  //age = 35 replaces if statement
+greet = function (name, age) {
     if (age === undefined) {
         age = 35;
     }
@@ -51,3 +51,5 @@ greet = function (name, age) {  //age = 35 replaces if statement
 };
 
 greet('John');
+greet('John', 54);
+
