@@ -50,6 +50,6 @@ greet = function (name, age) {
     console.log(msg);
 };
 
-greet('John');
-greet('John', 54);
+greet('John'); //function called without age parameter, enforcing if statement
+greet('John', 54); //function called with age parameter
 
