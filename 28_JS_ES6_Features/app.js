@@ -60,3 +60,5 @@ let greet = function (name, age = 35) {  //age = 35 replaces if statement
     console.log(msg);
 };
 
+greet('John'); //calling the function without age, enforcing the optional parameter
+greet('John', 40); // calling the funtion with the age parameter
