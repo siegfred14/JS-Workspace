@@ -75,3 +75,14 @@ printNumbers(1, 20);
 
 printNumbers(5); //without specifying the end, there'll be no log on console
 
+//Print Number function modified with optional parameter
+printNumbers = function (start, end = 20) {
+    let result = '';
+    for (let i = start; i <= end; i++) {
+        result += `${i} `;
+    }
+    console.log(result);
+}
+printNumbers(1, 20);
+
+printNumbers(5);
