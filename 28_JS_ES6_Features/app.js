@@ -62,3 +62,14 @@ let greet = function (name, age = 35) {  //age = 35 replaces if statement
 
 greet('John'); //calling the function without age, enforcing the optional parameter
 greet('John', 40); // calling the funtion with the age parameter
+
+//Print Number Example Added
+let printNumbers = function (start, end) {
+    let result = '';
+    for (let i = start; i <= end; i++) {
+        result += `${i} `;
+    }
+    console.log(result);
+}
+printNumbers(1, 20);
+
