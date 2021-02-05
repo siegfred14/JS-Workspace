@@ -73,3 +73,5 @@ let printNumbers = function (start, end) {
 }
 printNumbers(1, 20);
 
+printNumbers(5); //without specifying the end, there'll be no log on console
+
