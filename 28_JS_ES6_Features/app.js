@@ -86,3 +86,11 @@ printNumbers = function (start, end = 20) {
 printNumbers(1, 20);
 
 printNumbers(5);
+
+
+/* 
+Function Types
+1. Normal Function
+2. Function Expression
+3.Arrow Function
+ */
