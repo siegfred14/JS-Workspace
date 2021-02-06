@@ -92,5 +92,17 @@ printNumbers(5);
 Function Types
 1. Normal Function
 2. Function Expression
-3.Arrow Function
+3. Arrow Function
  */
+
+//Normal Function
+let result = '';
+function printNumbersNF() {
+    let msg = '';
+    for (let i = 0; i <= 10; i++) {
+        msg += `${i} `;
+    }
+    return msg;
+}
+result = printNumbersNF();
+console.log(result);
