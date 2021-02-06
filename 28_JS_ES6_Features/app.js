@@ -106,3 +106,14 @@ function printNumbersNF() {
 }
 result = printNumbersNF();
 console.log(result);
+
+// Function Expression
+let printNumbersFE = function () {
+    let msg = '';
+    for (let i = 0; i <= 10; i++) {
+        msg += `${i} `;
+    }
+    return msg;
+}
+result = printNumbersFE();
+console.log(result);
