@@ -55,7 +55,7 @@ greet('John', 54); //function called with age parameter
 
 
 //ES6 illustration with optional parameters
-let greet = function (name, age = 35) {  //age = 35 replaces if statement
+greet = function (name, age = 35) {  //age = 35 replaces if statement
     let msg = `Hello ${name}, you are ${age} years old`;
     console.log(msg);
 };
