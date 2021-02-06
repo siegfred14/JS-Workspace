@@ -117,3 +117,15 @@ let printNumbersFE = function () {
 }
 result = printNumbersFE();
 console.log(result);
+
+//Arrow
+//Arrow function is same as functional expression. but instead of keyword 'function', you write an arrow.
+let printNumbersAF = () => {
+    let msg = '';
+    for (let i = 0; i <= 10; i++) {
+        msg += `${i} `;
+    }
+    return msg;
+}
+result = printNumbersAF();
+console.log(result);
