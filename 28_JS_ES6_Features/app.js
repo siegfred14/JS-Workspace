@@ -132,5 +132,12 @@ console.log(result);
 
 // Usage of Arrow Functions
 let employees = [
+    {
+        id: 1,
+        name: 'John Smith',
+        age: 40,
+        designation: 'Manager',
+        isActive: true
+    },
     
 ];
