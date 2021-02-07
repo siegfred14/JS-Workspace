@@ -129,3 +129,5 @@ let printNumbersAF = () => {
 }
 result = printNumbersAF();
 console.log(result);
+
+// Usage of Arrow Functions
