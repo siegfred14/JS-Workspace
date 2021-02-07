@@ -153,5 +153,12 @@ let employees = [
         designation: 'Software Engineer',
         isActive: true
     },
+    {
+        id: 4,
+        name: 'Laura Helding',
+        age: 28,
+        designation: 'Tech Lead',
+        isActive: false
+    },
     
 ];
