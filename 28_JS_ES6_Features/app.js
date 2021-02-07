@@ -131,3 +131,6 @@ result = printNumbersAF();
 console.log(result);
 
 // Usage of Arrow Functions
+let employees = [
+    
+];
