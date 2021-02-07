@@ -139,5 +139,12 @@ let employees = [
         designation: 'Manager',
         isActive: true
     },
+    {
+        id: 2,
+        name: 'Wilson Pea',
+        age: 46,
+        designation: 'Sr. Manager',
+        isActive: false
+    },
     
 ];
