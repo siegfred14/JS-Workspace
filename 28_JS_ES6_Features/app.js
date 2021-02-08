@@ -184,3 +184,14 @@ console.log(juniorEmployees);
 //if you have one parameter, you can get rid of the braces and the return statement
 jrEmployees = employees.filter((employee) => employee.age <= 30);
 console.log(juniorEmployees);
+
+//Limitations of arrow function: 
+//Normal function with This keyword
+let student = {
+    firstName: 'Samantha',
+    lastName: 'Siegfred',
+    fullName: function name(params) {
+        return `${this.firstName} ${this.lastName}`;
+    }
+};
+console.log(student.fullName());
