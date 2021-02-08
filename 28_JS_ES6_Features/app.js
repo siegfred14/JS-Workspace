@@ -195,3 +195,14 @@ let student = {
     }
 };
 console.log(student.fullName());
+
+
+//the Arrow funcuion does not work with This Keyword
+student = {
+    firstName: 'Samantha',
+    lastName: 'Siegfred',
+    fullName: () => {
+        return `${this.firstName} ${this.lastName}`;
+    }
+};
+console.log(student.fullName()); //answer will be undefined undefined
