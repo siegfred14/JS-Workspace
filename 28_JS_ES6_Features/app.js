@@ -169,8 +169,9 @@ let employees = [
     }
 ];
 
-//Junior Employees 
+//Junior Employees with filter function
 let juniorEmployees = employees.filter(function (employ) {
     return employ.age <= 30;
 });
 console.log(juniorEmployees);
+
