@@ -175,3 +175,9 @@ let juniorEmployees = employees.filter(function (employ) {
 });
 console.log(juniorEmployees);
 
+//Junior Employeeswith arrow function
+let jrEmployees = employees.filter((employee) => {
+    return employee.age <= 30;
+});
+console.log(juniorEmployees);
+
