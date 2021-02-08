@@ -181,3 +181,6 @@ let jrEmployees = employees.filter((employee) => {
 });
 console.log(juniorEmployees);
 
+//if you have one parameter, you can get rid of the braces and the return statement
+jrEmployees = employees.filter((employee) => employee.age <= 30);
+console.log(juniorEmployees);
