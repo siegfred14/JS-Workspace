@@ -210,3 +210,13 @@ console.log(student.fullName()); //answer will be undefined undefined
 //in a normal function, This keyword would look for the current object
 //in an arrow function, This keyword would look for a global object
 
+//how to resolve this
+let student = {
+    firstName: 'Arjun',
+    lastName: 'Reddy',
+    fullName: () => {
+        return `${student.firstName} ${student.lastName}`;
+    }
+};
+console.log(student.fullName());
+
