@@ -220,3 +220,4 @@ student = {
 };
 console.log(student.fullName());
 
+//FOR-OF LOOPS  - New method used to loop an Array in JavaScript
