@@ -206,3 +206,7 @@ student = {
     }
 };
 console.log(student.fullName()); //answer will be undefined undefined
+
+//in a normal function, This keyword would look for the current object
+//in an arrow function, This keyword would look for a global object
+
