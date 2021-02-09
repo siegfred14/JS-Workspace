@@ -221,3 +221,41 @@ student = {
 console.log(student.fullName());
 
 //FOR-OF LOOPS  - New method used to loop an Array in JavaScript
+employees = [
+    {
+        id: 1,
+        name: 'John Smith',
+        age: 40,
+        designation: 'Manager',
+        isActive: true
+    },
+    {
+        id: 2,
+        name: 'Wilson Pea',
+        age: 46,
+        designation: 'Sr. Manager',
+        isActive: false
+    },
+    {
+        id: 3,
+        name: 'Thomas Teper',
+        age: 25,
+        designation: 'Software Engineer',
+        isActive: true
+    },
+    {
+        id: 4,
+        name: 'Laura Helding',
+        age: 28,
+        designation: 'Tech Lead',
+        isActive: false
+    },
+    {
+        id: 5,
+        name: 'David Maheesh',
+        age: 40,
+        designation: 'Software Engineer',
+        isActive: true
+    }
+];
+
