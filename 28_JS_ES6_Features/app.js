@@ -259,3 +259,11 @@ employees = [
     }
 ];
 
+//to print only employee Names inside an array
+//Normal for-loop
+result = '';
+for (let i = 0; i <= employees.length - 1; i++) {
+    let employee = employees[i];
+    result += `${employee.name} `;
+}
+console.log(result);
