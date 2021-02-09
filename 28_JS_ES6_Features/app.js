@@ -211,7 +211,7 @@ console.log(student.fullName()); //answer will be undefined undefined
 //in an arrow function, This keyword would look for a global object
 
 //how to resolve this
-let student = {
+student = {
     firstName: 'Arjun',
     lastName: 'Reddy',
     fullName: () => {
