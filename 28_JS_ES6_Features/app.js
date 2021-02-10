@@ -283,3 +283,4 @@ for (let employee of employees) {
 }
 console.log(result);
 
+//forEach function- ES5
