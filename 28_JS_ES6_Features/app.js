@@ -279,7 +279,7 @@ console.log(result);
 // For-Of Loops of ES6
 result = '';
 for (let employee of employees) {
-    result += `${employee.name.toUpperCase()} `;
+    result += `${employee.name.toUpperCase()} `; //no need to iterate employees as for-of handles that directly 
 }
 console.log(result);
 
