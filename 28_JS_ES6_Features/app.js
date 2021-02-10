@@ -276,3 +276,4 @@ for (let index in employees) { //for every loop, it picks the index
 }
 console.log(result);
 
+// For-Of Loops of ES6
