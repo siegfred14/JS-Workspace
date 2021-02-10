@@ -270,7 +270,7 @@ console.log(result);
 
 //using For-in Loop (up to ES5)
 result = '';
-for (let index in employees) {
+for (let index in employees) { //for every loop, it picks the index
     let employee = employees[index];
     result += `${employee.name.toUpperCase()} `;
 }
