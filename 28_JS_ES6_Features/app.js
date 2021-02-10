@@ -264,6 +264,7 @@ employees = [
 result = '';
 for (let i = 0; i <= employees.length - 1; i++) {
     let employee = employees[i];
-    result += `${employee.name} `;
+    result += `${employee.name.toUpperCase()} `;
 }
 console.log(result);
+
