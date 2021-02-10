@@ -268,3 +268,11 @@ for (let i = 0; i <= employees.length - 1; i++) {
 }
 console.log(result);
 
+//using For-in Loop (up to ES5)
+result = '';
+for (let index in employees) {
+    let employee = employees[index];
+    result += `${employee.name.toUpperCase()} `;
+}
+console.log(result);
+
