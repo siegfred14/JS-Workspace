@@ -298,3 +298,9 @@ employees.forEach(employee => {
 console.log(result);
 
 //Destructuring
+student = {
+    name: 'Arjun Reddy',
+    age: 23,
+    course: 'MBBS',
+    
+};
