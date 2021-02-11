@@ -284,3 +284,9 @@ for (let employee of employees) {
 console.log(result);
 
 //forEach function- ES5
+result = '';
+employees.forEach(function (employee) {
+    result += `${employee.name.toUpperCase()} `;
+});
+console.log(result);
+
