@@ -297,3 +297,4 @@ employees.forEach(employee => {
 });
 console.log(result);
 
+//Destructuring
