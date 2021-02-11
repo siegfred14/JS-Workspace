@@ -306,5 +306,11 @@ student = {
         street: 'Hitech City',
         city: 'Hyderabad',
         state: 'TS'
+    },
+    hobbies: {
+        regular: {
+            id: 1,
+            regHobbies: ['Reading Books', 'Playing Cricket']
+        }
     }
 };
