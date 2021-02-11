@@ -302,5 +302,9 @@ student = {
     name: 'Arjun Reddy',
     age: 23,
     course: 'MBBS',
-    
+    address: {
+        street: 'Hitech City',
+        city: 'Hyderabad',
+        state: 'TS'
+    }
 };
