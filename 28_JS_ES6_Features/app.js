@@ -290,7 +290,7 @@ employees.forEach(function (employee) {
 });
 console.log(result);
 
-//For Each with Arrow function - ES5
+//For Each with Arrow function - ES6
 result = '';
 employees.forEach(employee => {
     result += `${employee.name.toUpperCase()} `;
