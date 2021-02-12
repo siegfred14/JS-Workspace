@@ -297,7 +297,7 @@ employees.forEach(employee => {
 });
 console.log(result);
 
-//Destructuring
+//De-structuring ES6 (Using complex object)
 student = {
     name: 'Arjun Reddy',
     age: 23,
@@ -318,3 +318,4 @@ student = {
         }
     }
 };
+
