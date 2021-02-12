@@ -311,6 +311,10 @@ student = {
         regular: {
             id: 1,
             regHobbies: ['Reading Books', 'Playing Cricket']
+        },
+        occassional: {
+            id: 1,
+            occHobbies: ['Playing cards', 'Online games']
         }
     }
 };
