@@ -319,3 +319,4 @@ student = {
     }
 };
 
+//De-structuring allows us to access nth item, stored far inside a complex object
