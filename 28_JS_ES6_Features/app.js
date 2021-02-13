@@ -329,6 +329,6 @@ console.log(`STREET:${street}
         STATE; ${state}`);
 
 //To access regular hobbies
-let { regHobbies } = student.hobbies.regular;
-console.log(regHobbies);
+let { regHobbies } = student.hobbies.regular; //There must be space before and after regHobbies
+console.log(regHobbies); 
 
