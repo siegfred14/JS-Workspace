@@ -332,3 +332,4 @@ console.log(`STREET:${street}
 let { regHobbies } = student.hobbies.regular; //There must be space before and after regHobbies
 console.log(regHobbies); 
 
+// Spread Operator ...
