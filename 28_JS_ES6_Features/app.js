@@ -320,3 +320,11 @@ student = {
 };
 
 //De-structuring allows us to access nth item, stored far inside a complex object
+
+//continue from here
+//To access using De-structuring 
+let { street, city, state } = student.address; //this allows you to access few/specific items from the object
+console.log(`STREET:${street}
+        CITY: ${city}
+        STATE; ${state}`);
+
