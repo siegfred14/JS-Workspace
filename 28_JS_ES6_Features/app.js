@@ -328,3 +328,7 @@ console.log(`STREET:${street}
         CITY: ${city}
         STATE; ${state}`);
 
+//To access regular hobbies
+let { regHobbies } = student.hobbies.regular;
+console.log(regHobbies);
+
