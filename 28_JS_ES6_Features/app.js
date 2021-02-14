@@ -337,3 +337,6 @@ let numbers = [10, 58, 98, 754, 1, 851, 91, 161, 6489];
 let min = Math.min(10, 58, 98, 754, 1, 851, 91, 161, 6489);
 console.log(min); //Normal sequence
 
+min = Math.min(...numbers); //using spread operators
+console.log(min);
+
