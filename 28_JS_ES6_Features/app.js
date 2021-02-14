@@ -333,3 +333,4 @@ let { regHobbies } = student.hobbies.regular; //There must be space before and a
 console.log(regHobbies); 
 
 // Spread Operator ...
+let numbers = [10, 58, 98, 754, 1, 851, 91, 161, 6489];
