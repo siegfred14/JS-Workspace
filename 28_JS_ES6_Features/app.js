@@ -342,3 +342,5 @@ console.log(min);
 
 //Combining two Arrays using spread operators
 let array1 = ['white', 'black', 'blue', 'purple'];
+let array2 = ['yellow', 'silver', 'orange',]
+
