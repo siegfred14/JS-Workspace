@@ -340,3 +340,4 @@ console.log(min); //Normal sequence
 min = Math.min(...numbers); //using spread operators
 console.log(min);
 
+//Combining two Arrays using spread operators
