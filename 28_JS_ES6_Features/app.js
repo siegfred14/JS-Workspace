@@ -349,3 +349,6 @@ let colors = [];
 for (let color of array1) {
     colors.push(color)
 }
+for (let color of array2) {
+    colors.push(color)
+}
