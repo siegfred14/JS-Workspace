@@ -341,3 +341,4 @@ min = Math.min(...numbers); //using spread operators
 console.log(min);
 
 //Combining two Arrays using spread operators
+let array1 = ['white', 'black', 'blue', 'purple'];
