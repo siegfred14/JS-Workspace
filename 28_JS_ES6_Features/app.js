@@ -345,3 +345,7 @@ let array1 = ['white', 'black', 'blue', 'purple'];
 let array2 = ['yellow', 'silver', 'orange',]
 
 //to combine both arrays
+let colors = [];
+for (let color of array1) {
+    colors.push(color)
+}
