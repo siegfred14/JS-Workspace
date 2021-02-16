@@ -354,3 +354,5 @@ for (let color of array2) {
 } //items of both arrays have been looped and added to a new array 'colors'
 
 console.log(colors);
+
+//using spread operator of ES6
