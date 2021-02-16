@@ -353,3 +353,4 @@ for (let color of array2) {
     colors.push(color)
 } //items of both arrays have been looped and added to a new array 'colors'
 
+console.log(colors);
