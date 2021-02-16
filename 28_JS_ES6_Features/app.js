@@ -356,3 +356,5 @@ for (let color of array2) {
 console.log(colors);
 
 //using spread operator of ES6
+colors = [...array1, ...array2];
+console.log(colors);
