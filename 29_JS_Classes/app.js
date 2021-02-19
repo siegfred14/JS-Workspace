@@ -23,5 +23,8 @@ class Mobile {
     getPrice() {
         return this.price;
     }
+    getColor() {
+        return this.color;
+    }
 
 }
