@@ -15,5 +15,10 @@ class Mobile {
         this.color = color;
     }
 
-    //to access properties, we use special properties called getters and setters
-    
+//to access properties, we use special properties called getters and setters
+    //To add getters
+    getBrand() {
+        return this.brand;
+    }
+
+}
