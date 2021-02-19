@@ -20,5 +20,8 @@ class Mobile {
     getBrand() {
         return this.brand;
     }
+    getPrice() {
+        return this.price;
+    }
 
 }
