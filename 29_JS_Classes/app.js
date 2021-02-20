@@ -34,3 +34,5 @@ class Mobile {
         console.log(spec);
     }
 }
+let mobile = new Mobile('Apple', 35000, 'Silver');
+mobile.printSpecification();
