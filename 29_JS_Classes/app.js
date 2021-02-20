@@ -37,3 +37,5 @@ class Mobile {
 let mobile = new Mobile('Apple', 35000, 'Silver');
 mobile.printSpecification();
  */
+
+//class Mobile with setters 
