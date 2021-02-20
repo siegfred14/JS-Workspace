@@ -56,13 +56,15 @@ class Mobile {
     getPrice() {
         return this.price;
     }
-    
     setPrice(price) {
         this.price = price;
     }
 
     getColor() {
         return this.color;
+    }
+    setColor() {
+        this.color = color;
     }
 
     printSpecification() {
