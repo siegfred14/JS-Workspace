@@ -38,4 +38,36 @@ let mobile = new Mobile('Apple', 35000, 'Silver');
 mobile.printSpecification();
  */
 
-//class Mobile with setters 
+//class Mobile with setters
+class Mobile {
+    constructor(brand, price, color) {
+        this.brand = brand;
+        this.price = price;
+        this.color = color;
+    }
+
+    getBrand() {
+        return this.brand;
+    }
+    
+    setBrand(brand) {
+        this.brand = brand
+    }
+
+    getPrice() {
+        return this.price;
+    }
+
+    getColor() {
+        return this.color;
+    }
+
+    printSpecification() {
+        let spec = `BRAND: ${this.getBrand()}
+                    PRICE: ${this.getPrice()}
+                    COLOR: ${this.getColor()}`;
+        console.log(spec);
+    }
+}
+
+
