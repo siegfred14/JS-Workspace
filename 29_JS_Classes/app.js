@@ -49,13 +49,16 @@ class Mobile {
     getBrand() {
         return this.brand;
     }
-    
     setBrand(brand) {
         this.brand = brand
     }
 
     getPrice() {
         return this.price;
+    }
+    
+    setPrice(price) {
+        this.price = price;
     }
 
     getColor() {
