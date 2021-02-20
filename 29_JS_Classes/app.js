@@ -26,5 +26,11 @@ class Mobile {
     getColor() {
         return this.color;
     }
-
+    //printSpecification added
+    printSpecification(){
+        let spec = `BRAND : ${this.getBrand()}
+                    PRICE : ${this.getPrice()}
+                    COLOR : ${this.getColor()}`;
+        console.log(spec);
+    }
 }
