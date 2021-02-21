@@ -78,3 +78,8 @@ class Mobile {
 //to create an object based on the specification
 let mobile = new Mobile('Apple', 35000, 'Silver');
 mobile.printSpecification();
+
+//to set new price
+mobile.setPrice(45000);
+mobile.printSpecification(); 
+
