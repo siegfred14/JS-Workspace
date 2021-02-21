@@ -85,3 +85,17 @@ mobile.setPrice(45000);
 //To see the new price
 mobile.printSpecification(); 
 
+/* 
+In a nutshell, A class is a design or a blueprint which contains a special method/function called constructor,
+Which is responsible for initializing the values which you have assigned to create an object
+It also containe getters and setters to access and change the values of the properties of the Class or object
+
+You may have some instance methods to fetch data or do some other operation
+
+You create an object using the 'new' keyword 
+
+In classes, just as a real life object, 
+- you can only access or change a property. 
+- You cannot delete a property
+- You cannot add a property
+*/
