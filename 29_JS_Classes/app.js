@@ -75,4 +75,6 @@ class Mobile {
     }
 }
 
-
+//to create an object based on the specification
+let mobile = new Mobile('Apple', 35000, 'Silver');
+mobile.printSpecification();
