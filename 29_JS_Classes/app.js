@@ -81,5 +81,7 @@ mobile.printSpecification();
 
 //to set new price
 mobile.setPrice(45000);
+
+//To see the new price
 mobile.printSpecification(); 
 
