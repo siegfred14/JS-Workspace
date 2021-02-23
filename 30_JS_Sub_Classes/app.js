@@ -3,5 +3,8 @@ class Person {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
+    getFirstName() {
+        return this.firstName;
+    }
+    
 }
