@@ -6,5 +6,8 @@ class Person {
     getFirstName() {
         return this.firstName;
     }
-    
+    getLastName() {
+        return this.lastName;
+    }
+   
 }
