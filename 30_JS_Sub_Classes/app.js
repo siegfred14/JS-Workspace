@@ -9,5 +9,8 @@ class Person {
     getLastName() {
         return this.lastName;
     }
-   
+    greet() {
+        let msg = `Welcome Mr: ${this.getFirstName()} ${this.getLastName()}`;
+        console.log(msg);
+    }
 }
