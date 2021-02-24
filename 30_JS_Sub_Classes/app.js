@@ -14,3 +14,7 @@ class Person {
         console.log(msg);
     }
 }
+//create a new person object
+let person = new Person('John', 'Doe');
+person.greet();
+
