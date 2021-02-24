@@ -18,3 +18,4 @@ class Person {
 let person = new Person('John', 'Doe');
 person.greet();
 
+// to create  new class which inherits from class Person aa the parent
