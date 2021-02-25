@@ -25,5 +25,8 @@ class Employee extends Person {
         this.age = age;
         this.designation = designation;
     }
-
+    getAge() {
+        return this.age;
+    }
+    
 }
