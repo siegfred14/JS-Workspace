@@ -31,5 +31,10 @@ class Employee extends Person {
     getDesignation() {
         return this.designation;
     }
-    
+    greet() {
+        let msg = ` Hello Mr: ${this.getFirstName()} ${this.getLastName()}
+                   AGE: ${this.getAge()}
+                   DESIGNATION: ${this.getDesignation()}`;
+        console.log(msg);
+    }
 }
