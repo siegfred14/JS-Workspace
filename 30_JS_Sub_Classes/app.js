@@ -38,3 +38,6 @@ class Employee extends Person {
         console.log(msg);
     }
 }
+
+//create an object using all prameters
+let employee = new Employee('John', 'Paul', 40, 'Manager');
