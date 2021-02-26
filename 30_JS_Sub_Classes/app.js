@@ -43,3 +43,7 @@ class Employee extends Person {
 let employee = new Employee('John', 'Paul', 40, 'Manager');
 employee.greet();
 
+//Class customer 
+class Customer extends Person {
+    
+};
