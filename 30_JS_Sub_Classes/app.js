@@ -41,3 +41,5 @@ class Employee extends Person {
 
 //create an object using all prameters
 let employee = new Employee('John', 'Paul', 40, 'Manager');
+employee.greet();
+
