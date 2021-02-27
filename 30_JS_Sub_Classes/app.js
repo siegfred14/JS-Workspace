@@ -47,7 +47,7 @@ employee.greet(); //if greet function doesnt exist in the emploee class, it will
 class Customer extends Person {
     //continue here
     constructor(firstName, lastName, age, location) {
-
+        super(firstName, lastName);
     }
 
     
