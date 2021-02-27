@@ -43,3 +43,13 @@ class Employee extends Person {
 let employee = new Employee('John', 'Paul', 40, 'Manager');
 employee.greet(); //if greet function doesnt exist in the emploee class, it will go to the parent scope Person and call it's greet function
 
+//Class customer
+class Customer extends Person {
+    //continue here
+    constructor(firstName, lastName, age, location) {
+
+    }
+
+    
+};
+
