@@ -41,9 +41,5 @@ class Employee extends Person {
 
 //create an object using all prameters
 let employee = new Employee('John', 'Paul', 40, 'Manager');
-employee.greet();
+employee.greet(); //if greet function doesnt exist in the emploee class, it will go to the parent scope Person and call it's greet function
 
-//Class customer 
-class Customer extends Person {
-    
-};
