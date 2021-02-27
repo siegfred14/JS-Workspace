@@ -48,6 +48,8 @@ class Customer extends Person {
     //continue here
     constructor(firstName, lastName, age, location) {
         super(firstName, lastName);
+        this.age = age;
+        this.location = location;
     }
 
     
