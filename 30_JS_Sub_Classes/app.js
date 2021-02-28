@@ -56,5 +56,11 @@ class Customer extends Person {
     getLocation() {
         return this.location;
     }
+    greet() {
+        let msg = ` Hello Ms: ${this.getFirstName()} ${this.getLastName()}
+                   AGE: ${this.getAge()}
+                   LOCATION: ${this.getLocation()}`;
+        console.log(msg);
+    }
 };
 
