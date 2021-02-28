@@ -65,3 +65,4 @@ class Customer extends Person {
 };
 
 let customer = new Customer('Laura', 'Wilson', 28, 'USA');
+customer.greet();
