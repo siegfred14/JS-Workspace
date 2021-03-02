@@ -3,5 +3,8 @@ export class Person {                           //using export allows you to use
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    getFirstName() {
+        return this.firstName;
+    }
     
 }
