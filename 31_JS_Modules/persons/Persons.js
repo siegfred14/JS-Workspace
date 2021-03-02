@@ -6,5 +6,8 @@ export class Person {                           //using export allows you to use
     getFirstName() {
         return this.firstName;
     }
+    getLastName() {
+        return this.lastName;
+    }
     
 }
