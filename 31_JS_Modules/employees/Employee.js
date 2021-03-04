@@ -23,4 +23,5 @@ export class Employee extends Person {
 
 let customer = new Customer('Laura', 'Wilson', 28, 'Abuja');
 customer.greet();
+
 //Employee.js completed
