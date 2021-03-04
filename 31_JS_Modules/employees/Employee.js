@@ -19,3 +19,5 @@ export class Employee extends Person {
         console.log(msg);
     }
 }
+
+//Employee.js completed
