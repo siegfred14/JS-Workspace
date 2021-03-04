@@ -1,3 +1,4 @@
+import { Customer } from '../customers/Customers.js';
 import { Person } from '../persons/Persons.js'  //this allow you to 'extend Person'
 
 export class Employee extends Person {
@@ -19,5 +20,7 @@ export class Employee extends Person {
         console.log(msg);
     }
 }
+
+let customer = new Customer('Laura', 'Wilson', 28, 'Abuja');
 
 //Employee.js completed
