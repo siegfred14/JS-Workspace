@@ -5,7 +5,10 @@ class Customer extends Person {
         super(firstName, lastName);
         this.age = age;
         this.location = location;
-        
+    }
+    getAge() {
+        return this.age;
     }
 
+    
 };
