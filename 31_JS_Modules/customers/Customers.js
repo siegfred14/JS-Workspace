@@ -9,6 +9,8 @@ class Customer extends Person {
     getAge() {
         return this.age;
     }
-
+    getLocation() {
+        return this.location;
+    }
     
 };
