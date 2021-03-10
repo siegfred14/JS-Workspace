@@ -1,6 +1,6 @@
 import { Person } from '../persons/Persons.js'
 
-class Customer extends Person {
+export class Customer extends Person {
     constructor(firstName, lastName, age, location) {
         super(firstName, lastName);
         this.age = age;
@@ -18,5 +18,5 @@ class Customer extends Person {
                    LOCATION: ${this.getLocation()}`;
         console.log(msg);
     }
-    
+
 };
