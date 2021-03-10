@@ -3,5 +3,9 @@ class Person {                           //using export allows you to use the mo
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    getFirstName() {
+        return this.firstName;
+    }
+    
     
 }
