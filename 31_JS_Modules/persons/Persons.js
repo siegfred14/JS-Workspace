@@ -7,5 +7,8 @@ class Person {                           //using export allows you to use the mo
         return this.firstName;
     }
     
+    getLastName() {
+        return this.lastName;
+    }
     
 }
