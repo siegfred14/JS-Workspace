@@ -11,5 +11,6 @@ export class Person {                           //using export allows you to use
     }
     greet() {
         let msg = `Welcome Mr: ${this.getFirstName()} ${this.getLastName()}`;
+        console.log(msg);
     }
 }
