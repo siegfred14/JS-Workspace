@@ -34,5 +34,5 @@ let greet = () => {
 setInterval(greet, 1000);
 
 console.log(new Date().toLocaleTimeString());
-setTimeout(greet, 3000);
+setTimeout(greet, 3000); //SetTimeout will call the function after 3 secs
 
