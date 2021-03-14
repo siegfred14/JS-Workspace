@@ -15,10 +15,21 @@ setInterval(greet, 1000); //this calls the greet function every 1000miliseconds 
  */
 
  //to see the real value
- let count = 0;
+ /* let count = 0;
  let greet = () => {
      count ++;
     console.log(`Hello Welcome to JS: ${count}`);
+};
+setInterval(greet, 1000);
+ */
+
+
+//Using SetTimeOut
+let count = 0;
+let greet = () => {
+    count ++;
+    console.log(`Hello Welcome to JS: ${count}`);
+    console.log(new Date().toLocaleTimeString());
 };
 setInterval(greet, 1000);
 
