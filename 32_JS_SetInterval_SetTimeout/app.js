@@ -25,7 +25,8 @@ setInterval(greet, 1000);
 
 
 //Using SetTimeOut
-let count = 0;
+
+/* let count = 0;
 let greet = () => {
     count ++;
     console.log(`Hello Welcome to JS: ${count}`);
@@ -36,3 +37,18 @@ setInterval(greet, 1000);
 console.log(new Date().toLocaleTimeString());
 setTimeout(greet, 3000); //SetTimeout will call the function after 3 secs
 
+ */
+
+let count = 0;
+let greet = () => {
+    count++;
+    console.log(`Hello, Welcome to JS: ${count}`);
+    console.log(new Date().toLocaleTimeString());
+};
+
+setInterval(greet, 1000);
+
+console.log(new Date().toLocaleTimeString());
+setTimeout(() => {
+    clearInterval(interval);
+}, 5000);
