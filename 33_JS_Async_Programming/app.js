@@ -17,3 +17,6 @@ setTimeout(() => {
 console.log('car 4');
 console.log('car 5');
 
+//In this case, cars 1, 2, 4, 5 are logged immediately, car 3 comes in 3 seconds later
+//so you can write your codes randomly, then reorder their execution using async programming
+
