@@ -9,3 +9,5 @@ let calculate = (a, b, operation) => {
     }
     return result;
 };
+
+let output = calculate(10, 20, 'sum');
