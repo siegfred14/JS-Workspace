@@ -4,4 +4,8 @@ let calculate = (a, b, operation) => {
     if (operation === 'sum') {
         result = a + b;
     }
+    if (operation === 'mul') {
+        result = a * b;
+    }
+    return result;
 };
