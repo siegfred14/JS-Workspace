@@ -11,3 +11,5 @@ let calculate = (a, b, operation) => {
 };
 
 let output = calculate(10, 20, 'sum');
+console.log(output);
+
