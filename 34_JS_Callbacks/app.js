@@ -21,3 +21,7 @@ console.log(output);
 
 //using callback function
 
+let sum = (a, b) => {
+    return a + b;
+};
+
