@@ -29,3 +29,6 @@ let mul = (a, b) => {
     return a * b;
 };
 
+let calculate = (a, b, callback) => {
+    return callback(a, b); 
+};
