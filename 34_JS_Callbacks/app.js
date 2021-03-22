@@ -32,3 +32,6 @@ let mul = (a, b) => {
 let calculate = (a, b, callback) => {
     return callback(a, b); 
 };
+
+let output = calculate(10, 20, sum);
+
