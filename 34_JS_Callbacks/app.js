@@ -45,3 +45,6 @@ output = calculate(10, 20, (a, b) => {
 
 console.log(output);
 
+let employees = [{ id: 1, name: 'John', age: 35 },
+{ id: 2, name: 'Rajan', age: 25 }];
+
