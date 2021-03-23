@@ -39,3 +39,7 @@ console.log(output);
 output = calculate(10, 20, mul);
 console.log(output);
 
+output = calculate(10, 20, (a, b) => {
+    return a - b;
+});
+
