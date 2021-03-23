@@ -49,6 +49,8 @@ let employees = [{ id: 1, name: 'John', age: 35 },
 { id: 2, name: 'Rajan', age: 25 }];
 
 let createEmployee = (employee, callback) => {
-    employees.push(employee);
-    callback();
+    setTimeout(() => {
+        employees.push(employee);
+        callback();
+    }, 2000);
 };
