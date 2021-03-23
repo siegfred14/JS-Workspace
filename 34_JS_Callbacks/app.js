@@ -43,3 +43,5 @@ output = calculate(10, 20, (a, b) => {
     return a - b;
 });
 
+console.log(output);
+
