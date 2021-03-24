@@ -58,7 +58,9 @@ let createEmployee = (employee, callback) => {
 let getEmployees = () => {
     let employeeRows = '';
     employees.forEach((employee) => {
-        
+        employeeRows += `<tr>
+                            
+                        </tr>`;
     })
     document.querySelector('#table-body').innerHTML = employeeRows;
 };
