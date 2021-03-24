@@ -56,5 +56,6 @@ let createEmployee = (employee, callback) => {
 };
 
 let getEmployees = () => {
+    let employeeRows = '';
     
 };
