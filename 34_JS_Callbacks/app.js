@@ -54,3 +54,7 @@ let createEmployee = (employee, callback) => {
         callback();
     }, 2000);
 };
+
+let getEmployees = () => {
+    
+};
