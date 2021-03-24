@@ -58,4 +58,5 @@ let createEmployee = (employee, callback) => {
 let getEmployees = () => {
     let employeeRows = '';
     
+    document.querySelector('#table-body').innerHTML = employeeRows;
 };
