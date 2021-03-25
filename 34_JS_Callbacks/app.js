@@ -68,3 +68,6 @@ let getEmployees = () => {
         document.querySelector('#table-body').innerHTML = employeeRows;
     }, 1000);
 };
+
+createEmployee({ id: 3, name: 'Wilson', age: 45 }, getEmployees);
+//getEmployees();
