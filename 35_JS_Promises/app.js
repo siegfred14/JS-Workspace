@@ -6,5 +6,7 @@ let doTask = (success, failure) => {
     if (isDone) {
         success('Task is Done');
     }
-    
+    else {
+        failure('Task is NOT Done');
+    }
 };
