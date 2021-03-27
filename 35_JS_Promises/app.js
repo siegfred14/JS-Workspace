@@ -2,7 +2,9 @@
 
 let doTask = (success, failure) => {
     // doing the task
-    let isDone = true; //boolean
-    
+    let isDone = true;
+    if (isDone) {
+        success('Task is Done');
+    }
     
 };
