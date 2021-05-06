@@ -31,3 +31,10 @@ let cleanCamera = new Promise((resolve, reject) => {
     }
 });
 
+//to call the promise
+cleanCamera.then((message) => {
+    console.log(message);
+}).catch((err) => {
+    console.error(err);
+})
+
