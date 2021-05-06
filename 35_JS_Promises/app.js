@@ -52,3 +52,15 @@ let buildProject = new Promise((resolve, reject) => {
     }, 1000)
 });
 
+let attendTechnicalRound = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        let isDone = true;
+        if (isDone) {
+            resolve('Technical Round is Finished');
+        }
+        else {
+            reject('Technical Round is NOT Finished')
+        }
+    }, 2000)
+});
+
