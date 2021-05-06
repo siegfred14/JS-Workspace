@@ -64,3 +64,14 @@ let attendTechnicalRound = new Promise((resolve, reject) => {
     }, 2000)
 });
 
+let attendManagerRound = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        let isDone = true;
+        if (isDone) {
+            resolve('Manager Round is Finished');
+        }
+        else {
+            reject('Manager Round is NOT Finished')
+        }
+    }, 3000)
+});
