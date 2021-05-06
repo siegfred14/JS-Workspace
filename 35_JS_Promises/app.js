@@ -38,3 +38,17 @@ cleanCamera.then((message) => {
     console.error(err);
 })
 
+//Depedent Promises in JavaScript
+
+let buildProject = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        let isDone = true;
+        if (isDone) {
+            resolve('Project is Finished');
+        }
+        else {
+            reject('Project is NOT Finished')
+        }
+    }, 1000)
+});
+
