@@ -75,3 +75,15 @@ let attendManagerRound = new Promise((resolve, reject) => {
         }
     }, 3000)
 });
+
+let attendHRRound = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        let isDone = true;
+        if (isDone) {
+            resolve('HR Round is Finished, Got Job');
+        }
+        else {
+            reject('HR Round is NOT Finished')
+        }
+    }, 4000)
+});
