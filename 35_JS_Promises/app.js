@@ -87,3 +87,32 @@ let attendHRRound = new Promise((resolve, reject) => {
         }
     }, 4000)
 });
+
+// how to call
+
+buildProject.then((message) => {
+    let result = `${message} -> `;
+    attendTechnicalRound.then((message) => {
+        result += `${message} -> `;
+        console.log(message);
+        attendManagerRound.then((message) => {
+            result += `${message} -> `;
+            console.log(message);
+            attendHRRound.then((message) => {
+                result += `${message}`;
+                console.log(message);
+                setTimeout(() => {
+                    console.log(result)
+                }, (1000));
+            }).catch((err) => {
+                console.error(err);
+            });
+        }).catch((err) => {
+            console.error(err);
+        });
+    }).catch((err) => {
+        console.error(err);
+    })
+}).catch((err) => {
+    console.error(err);
+})
