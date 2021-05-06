@@ -18,3 +18,16 @@ doTask((message) => {
     console.error(message);
 });
 
+// Actual promise creation
+
+let cleanCamera = new Promise((resolve, reject) => {
+    //cleaning camera
+    let isDone = true;
+    if (isDone) {
+        resolve('cleaning is Done');
+    }
+    else {
+        reject('Cleaning is NOT Done')
+    }
+});
+
