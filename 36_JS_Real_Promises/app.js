@@ -22,6 +22,13 @@ let createEmployee = (employee) => {
 let getEmployees = () => {
     setTimeout(() => {
         let employeeRows = '';
+        employees.forEach((employee) => {
+            employeeRows += `<tr>
+                                <td>${employee.id}</td>
+                                <td>${employee.name}</td>
+                                <td>${employee.age}</td>
+                            </tr>`;
+        })
         
     }, 1000);
 };
