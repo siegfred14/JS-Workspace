@@ -17,3 +17,12 @@ let createEmployee = (employee) => {
     })
 };
 
+//get Employee
+
+let getEmployees = () => {
+    setTimeout(() => {
+        let employeeRows = '';
+        
+    }, 1000);
+};
+
