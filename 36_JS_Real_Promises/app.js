@@ -1,3 +1,4 @@
+// employee array
 let employees = [{ id: 1, name: 'John', age: 30 },
                 { id: 2, name: 'Rajan', age: 25 }];
 
@@ -33,7 +34,7 @@ let getEmployees = () => {
     }, 1000);
 };
 
-
+// Employee Created
 createEmployee({ id: 3, name: 'Wilson', age: 45 }).then(() => {
     getEmployees()
 }).catch((err) => {
