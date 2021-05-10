@@ -29,7 +29,13 @@ let getEmployees = () => {
                                 <td>${employee.age}</td>
                             </tr>`;
         })
-        
+        document.querySelector('#table-body').innerHTML = employeeRows;
     }, 1000);
 };
 
+
+createEmployee({ id: 3, name: 'Wilson', age: 45 }).then(() => {
+    getEmployees()
+}).catch((err) => {
+    console.error(err);
+});
