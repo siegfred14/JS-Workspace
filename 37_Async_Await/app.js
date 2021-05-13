@@ -5,7 +5,8 @@ let employees = [{ id: 1, name: 'John', age: 30 },
 let createEmployee = (employee) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            
+            employees.push(employee);
+            let isDone = true;
                         
         }, 2000);
     })
