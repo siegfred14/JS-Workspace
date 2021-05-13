@@ -7,7 +7,10 @@ let createEmployee = (employee) => {
         setTimeout(() => {
             employees.push(employee);
             let isDone = true;
-                        
+            if (isDone) {
+                resolve()
+            }
+            
         }, 2000);
     })
 };
