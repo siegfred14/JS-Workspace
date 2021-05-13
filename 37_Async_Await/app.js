@@ -4,7 +4,10 @@ let employees = [{ id: 1, name: 'John', age: 30 },
 //create Employee
 let createEmployee = (employee) => {
     return new Promise((resolve, reject) => {
-        
+        setTimeout(() => {
+            
+                        
+        }, 2000);
     })
 };
 
