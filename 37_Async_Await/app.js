@@ -10,7 +10,9 @@ let createEmployee = (employee) => {
             if (isDone) {
                 resolve()
             }
-            
+            else {
+                reject('Employee Creation is Failed')
+            }
         }, 2000);
     })
 };
