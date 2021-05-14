@@ -22,7 +22,9 @@ let createEmployee = (employee) => {
 let getEmployees = () => {
     setTimeout(() => {
         let employeeRows = '';
-        
+        employees.forEach((employee) => {
+            
+        })
         document.querySelector('#table-body').innerHTML = employeeRows;
     }, 1000);
 };
