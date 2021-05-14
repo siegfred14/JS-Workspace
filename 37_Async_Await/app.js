@@ -21,6 +21,7 @@ let createEmployee = (employee) => {
 
 let getEmployees = () => {
     setTimeout(() => {
+        let employeeRows = '';
         
         document.querySelector('#table-body').innerHTML = employeeRows;
     }, 1000);
