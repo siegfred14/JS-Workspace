@@ -20,5 +20,7 @@ let createEmployee = (employee) => {
 //get Employee
 
 let getEmployees = () => {
+    setTimeout(() => {
     
+    }, 1000);
 };
