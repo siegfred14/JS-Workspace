@@ -23,7 +23,11 @@ let getEmployees = () => {
     setTimeout(() => {
         let employeeRows = '';
         employees.forEach((employee) => {
-            
+            employeeRows += `<tr>
+                                <td>${employee.id}</td>
+                                <td>${employee.name}</td>
+                                <td>${employee.age}</td>
+                            </tr>`;
         })
         document.querySelector('#table-body').innerHTML = employeeRows;
     }, 1000);
