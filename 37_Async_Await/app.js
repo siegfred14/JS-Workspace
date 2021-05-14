@@ -17,3 +17,8 @@ let createEmployee = (employee) => {
     })
 };
 
+//get Employee
+
+let getEmployees = () => {
+    
+};
