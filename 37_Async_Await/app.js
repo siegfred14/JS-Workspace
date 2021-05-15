@@ -45,3 +45,4 @@ let init = async () => {
     getEmployees()
 };
 
+init()
