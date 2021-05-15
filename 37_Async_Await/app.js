@@ -39,3 +39,7 @@ let getEmployees = () => {
     console.error(err);
 }); */
 
+//Async Await
+let init = async () => {
+};
+
