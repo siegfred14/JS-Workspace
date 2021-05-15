@@ -33,9 +33,9 @@ let getEmployees = () => {
     }, 1000);
 };
 
-createEmployee({ id: 3, name: 'Wilson', age: 45 }).then(() => {
+/* createEmployee({ id: 3, name: 'Wilson', age: 45 }).then(() => {
     getEmployees()
 }).catch((err) => {
     console.error(err);
-});
+}); */
 
