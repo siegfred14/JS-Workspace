@@ -41,5 +41,7 @@ let getEmployees = () => {
 
 //Async Await
 let init = async () => {
+    let result = await createEmployee({ id: 3, name: 'Wilson', age: 45 });
+    getEmployees()
 };
 
