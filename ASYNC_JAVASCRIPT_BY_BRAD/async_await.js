@@ -4,5 +4,7 @@ const posts = [
 ]
 
 function getPosts(){
-    
+    setTimeout(() => {
+        
+    }, 1000);
 };
