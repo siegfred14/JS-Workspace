@@ -3,3 +3,6 @@ const posts = [
     { title: 'Post Two', body: 'This is post two' }
 ]
 
+function getPosts(){
+    
+};
