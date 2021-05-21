@@ -20,7 +20,9 @@ function createPost(post){
             
             let error = false;
 
-            
+            if(!error){
+                resolve();
+            }
         }, 2000);
     })
 };
