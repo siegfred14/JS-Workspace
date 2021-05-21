@@ -22,6 +22,8 @@ function createPost(post){
 
             if(!error){
                 resolve();
+            }else{
+                reject('Error: Something went wrong');  
             }
         }, 2000);
     })
