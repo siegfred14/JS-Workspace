@@ -12,3 +12,7 @@ function getPosts(){
         document.body.innerHTML = output;
     }, 1000);
 };
+
+function createPost(post){
+    
+};
